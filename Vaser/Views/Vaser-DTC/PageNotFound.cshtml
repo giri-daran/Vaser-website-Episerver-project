@@ -1,0 +1,240 @@
+﻿@using System.Web.Optimization
+@using EPiServer.Framework.Web.Mvc.Html
+@using EpiserverBH.Business
+@model IPageViewModel<Error>
+@{ Layout = null; }
+
+<!DOCTYPE html>
+<html lang="@Model.CurrentPage.LanguageBranch">
+<head id="Head">
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+    <meta name="google-site-verification" content="PhF29lId4PU1HZO3pQz3OHFbene8fZX6Bh5eBrNIpHA" />
+    <meta id="MetaRobots" name="ROBOTS" content="INDEX, FOLLOW" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link href="~/Assets/Vaser-DTC/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Assets/Vaser-DTC/css/skin.css" rel="stylesheet" />
+    <link href="~/Assets/Vaser-DTC/css/CustomForm.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" crossorigin="anonymous">
+    <script type="text/javascript">
+        (function () {
+            var didInit = false;
+            function initMunchkin() {
+                if (didInit === false) {
+                    didInit = true;
+                    Munchkin.init('350-OKO-721', { "wsInfo": "j0BNcQ%3D%3D" });
+                }
+            }
+            var s = document.createElement('script');
+            s.type = 'text/javascript';
+            s.async = true;
+            s.src = '//munchkin.marketo.net/munchkin-beta.js';
+            s.onreadystatechange = function () {
+                if (this.readyState == 'complete' || this.readyState == 'loaded') {
+                    initMunchkin();
+                }
+            };
+            s.onload = initMunchkin;
+            document.getElementsByTagName('head')[0].appendChild(s);
+        })();
+    </script>
+
+    <title>@Model.CurrentPage.MetaTitle</title>
+
+    @if (Model.CurrentPage.MetaKeywords != null && Model.CurrentPage.MetaKeywords.Length > 0)
+    {
+        <meta name="keywords" content="@string.Join(",", Model.CurrentPage.MetaKeywords)" />
+    }
+    @if (!string.IsNullOrWhiteSpace(Model.CurrentPage.MetaDescription))
+    {
+        <meta name="description" content="@Model.CurrentPage.MetaDescription" />
+    }
+
+    <link rel="shortcut icon" href="@Url.Content("~/Assets/Vaser-DTC/img/favicon-Vaser.ico")" type="image/x-icon" />
+    @Html.CanonicalLink()
+    @Html.AlternateLinks()
+    @*@Styles.Render("~/bundles/css")*@
+    @Scripts.Render("~/bundles/js")
+
+    @*@Html.RequiredClientResources("Header")*@ @*Enable components to require resources. For an example, see the view for VideoBlock.*@
+    @Html.RenderEPiServerQuickNavigator()
+    @if (Model.CurrentPage.SiteCSS != null && Model.CurrentPage.SiteCSS.Length > 0)
+    {
+        for (var i = 0; i < Model.CurrentPage.SiteCSS.Length; i++)
+        {
+            <link href="@Url.ContentUrl(Convert.ToString(Model.CurrentPage.SiteCSS[i]))" type="text/css" rel="stylesheet" />
+        }
+    }
+    @if (Model.CurrentPage.SiteJs != null && Model.CurrentPage.SiteJs.Length > 0)
+    {
+        for (var i = 0; i < Model.CurrentPage.SiteJs.Length; i++)
+        {
+
+            <script src="@Url.ContentUrl(Model.CurrentPage.SiteJs[i]))" type="text/javascript" async></script>
+        }
+    }
+
+    @{
+
+        if (Model.Layout.GoogleTagManager != null)
+        {
+
+            <script type="text/javascript">
+
+                (function (w, d, s, l, i) {
+                    w[l] = w[l] || []; w[l].push({ 'eaSendGaEvents': true, 'pageVariant': 'Default' });
+                    w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' }); var f = d.getElementsByTagName(s)[0],
+                        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                            'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+                    /**/
+                })(window, document, 'script', 'dataLayer', '@Model.Layout.GoogleTagManager');
+            </script>
+        }
+
+    }
+
+</head>
+<body id="Body">
+
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        @{ if (Model.Layout.GoogleTagManager != null)
+            {
+                <iframe src="//www.googletagmanager.com/ns.html?id=@Model.Layout.GoogleTagManager"
+                        height="0" width="0" style="display:none;visibility:hidden"></iframe>
+            } }
+    </noscript>
+    <div id="blurMe">
+        <header class="mainHeader err-page-header">
+            <!-- Products Header Starts -->
+            <div class="container-fluid mini-header">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-12 col-lg-9 col-sm-6 brand-logo-div">
+                                    <div id="logopane">
+                                        @Html.PropertyFor(x => x.CurrentPage.HeaderLinksMobile, new { })
+
+                                    </div>
+                                </div>
+                                <div class="col-12 col-lg-3 col-sm-6" id="TopLinks">
+                                    @Html.PropertyFor(x => x.CurrentPage.HeaderLinksAboveMenu, new { })
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Products Header Ends -->
+            <!-- Menu Header Starts -->
+            <div class="container-fluid menu-header">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-2 product-logo-div">
+                                    <div id="productlogopane">
+                                        @Html.PropertyFor(x => x.CurrentPage.MainContentArea, new { })
+                                    </div>
+                                </div>
+                                <div class="col-10 main-nav">
+                                    <nav class="navbar">
+                                        <div id="productnavpane">
+                                            @Html.PropertyFor(x => x.CurrentPage.ContentArea_1, new { })
+                                        </div>
+                                    </nav>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Menu Header Ends -->
+        </header>
+        <!-- Page Header Ends -->
+        <!--INDEX STARTS-->
+        <div>
+            @Html.PropertyFor(x => x.CurrentPage.ContentArea_2, new { })
+        </div>
+        <!--INDEX END-->
+        <!--FOOTER STARTS-->
+        <footer class="container-fluid err-page-footer">
+            <div class="row footer">
+                <div class="col-12">
+                    <div class="container">
+                        <div id="footerpane">
+                            @Html.PropertyFor(x => x.CurrentPage.Footer, new { })
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!--FOOTER END-->
+    </div>
+        <!-- ISI Container Starts -->
+        <div class="modal fade in" id="isiContainer" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-mobile-header">
+                <div id="modalMobileHeader" >
+                    @Html.PropertyFor(x => x.CurrentPage.ContentArea_3, new { })
+                </div>
+            </div>
+            <div class="modal-dialog" role="document">
+                <div class="modal-content isi-modal-content">
+                    <div class="modal-body isi-content">
+                        <div class="row">
+                            <div class="col-6">
+                                <div id="menulogopane" >
+                                    @Html.PropertyFor(x => x.CurrentPage.ContentArea_4, new { })
+
+                                </div>
+                            </div>
+                            <div class="col-6 text-right">
+                                <a href="javascript:void(0)" class="btn-close-isi" data-dismiss="modal">CLOSE</a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12">
+                                <div id="isipane" >
+                                    @Html.PropertyFor(x => x.CurrentPage.ContentArea_5, new { })
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ISI Container Ends -->
+
+
+   
+    @if (Model.Layout.SiteJs != null)
+    {
+        foreach (var x in Model.Layout.SiteJs)
+        {
+            if (Convert.ToString(x.Href) != null)
+            {
+                <script src="@Url.ContentUrl(x.Href)" type="text/javascript" async></script>
+            }
+        }
+    }
+    <script type="text/javascript">
+        $("button i").addClass("fa");
+        $(".hamburger-menu i").addClass("fas");
+        $(".hamburger-menu i").addClass("fa-bars");
+        $("a.btn-close-isi  i").addClass("fas ");
+        $("a.btn-close-isi  i").addClass("fa-times ");
+    </script>
+
+
+    <script src="~/Assets/Vaser-DTC/js/bootstrap.min.js"></script>
+    <script src="~/Assets/Vaser-DTC/js/jquery.mobile.custom.min.js"></script>
+    <script src="~/Assets/Vaser-DTC/js/menu.js"></script>
+
+</body>
+</html>
+
+

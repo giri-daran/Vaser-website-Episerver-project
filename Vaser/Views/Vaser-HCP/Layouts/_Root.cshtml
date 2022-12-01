@@ -1,0 +1,195 @@
+@using System.Web.Optimization
+@using EPiServer.Framework.Web.Mvc.Html
+@using EpiserverBH.Business
+@model IPageViewModel<HCP>
+
+<!DOCTYPE html>
+<html lang="@Model.CurrentPage.LanguageBranch">
+<head>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+    <meta id="MetaRobots" name="ROBOTS" content="INDEX, FOLLOW" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link href="~/Assets/Vaser-HCP/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Assets/Vaser-HCP/css/skin.css" rel="stylesheet" />
+    <link href="~/Assets/Vaser-HCP/css/CustomForm-min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" crossorigin="anonymous">
+    <script type="text/javascript">
+        (function () {
+            var didInit = false;
+            function initMunchkin() {
+                if (didInit === false) {
+                    didInit = true;
+                    Munchkin.init('350-OKO-721', { "wsInfo": "j0BNcQ%3D%3D" });
+                }
+            }
+            var s = document.createElement('script');
+            s.type = 'text/javascript';
+            s.async = true;
+            s.src = '//munchkin.marketo.net/munchkin-beta.js';
+            s.onreadystatechange = function () {
+                if (this.readyState == 'complete' || this.readyState == 'loaded') {
+                    initMunchkin();
+                }
+            };
+            s.onload = initMunchkin;
+            document.getElementsByTagName('head')[0].appendChild(s);
+        })();
+    </script>
+    <title>@Model.CurrentPage.MetaTitle</title>
+
+    @if (Model.CurrentPage.MetaKeywords != null && Model.CurrentPage.MetaKeywords.Length > 0)
+    {
+        <meta name="keywords" content="@string.Join(",", Model.CurrentPage.MetaKeywords)" />
+    }
+    @if (!string.IsNullOrWhiteSpace(Model.CurrentPage.MetaDescription))
+    {
+        <meta name="description" content="@Model.CurrentPage.MetaDescription" />
+    }
+    @if (!string.IsNullOrWhiteSpace(Model.CurrentPage.MetaData))
+    {
+        @Html.Raw(Model.CurrentPage.MetaData)
+    }
+    <link rel="shortcut icon" href="@Url.Content("~/Assets/Vaser-HCP/img/favicon-Vaser.ico")" type="image/x-icon" />
+
+    @Html.CanonicalLink()
+    @Html.AlternateLinks()
+    @*@Styles.Render("~/bundles/css")*@
+    @Scripts.Render("~/bundles/js")
+
+    @Html.RequiredClientResources("Header") @*Enable components to require resources. For an example, see the view for VideoBlock.*@
+    @Html.RenderEPiServerQuickNavigator()
+
+    @if (Model.CurrentPage.SiteCSS != null && Model.CurrentPage.SiteCSS.Length > 0)
+    {
+        for (var i = 0; i < Model.CurrentPage.SiteCSS.Length; i++)
+        {
+            <link href="@Url.ContentUrl(Convert.ToString(Model.CurrentPage.SiteCSS[i]))" type="text/css" rel="stylesheet" />
+        }
+    }
+    @{
+
+        if (Model.Layout.GoogleTagManager != null)
+        {
+
+            <script type="text/javascript">
+
+                (function (w, d, s, l, i) {
+                    w[l] = w[l] || []; w[l].push({ 'eaSendGaEvents': true, 'pageVariant': 'Default' });
+                    w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' }); var f = d.getElementsByTagName(s)[0],
+                        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                            'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+                    /**/
+                })(window, document, 'script', 'dataLayer', '@Model.Layout.GoogleTagManager');
+            </script>
+        }
+
+    }
+</head>
+<body id="Body">
+
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        @{ if (Model.Layout.GoogleTagManager != null)
+            {
+                <iframe src="//www.googletagmanager.com/ns.html?id=@Model.Layout.GoogleTagManager"
+                        height="0" width="0" style="display:none;visibility:hidden"></iframe>
+            } }
+    </noscript>
+    <div id="blurMe">
+
+        @{
+            string layouturl = null;
+            if (Model.Layout.SiteTemplate != null)
+            {
+                layouturl = "~/Views/" + Model.Layout.SiteTemplate;
+
+            }
+        }
+
+        @if (Model.Layout.IsInReadonlyMode)
+        {
+            Html.RenderPartial("Readonly", Model);
+        }
+        @Html.FullRefreshPropertiesMetaData()
+
+        @if (!Model.Layout.HideHeader)
+        {
+            Html.RenderPartial(layouturl + "/Header.cshtml", Model);
+        }
+
+        @RenderBody()
+
+        @if (!Model.Layout.HideFooter)
+        {
+            Html.RenderPartial(layouturl + "/Footer.cshtml", Model);
+        }
+
+    </div>
+
+    <!-- ISI Container Starts -->
+    <div class="modal fade in" id="isiContainer" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-mobile-header">
+            <div id="modalMobileHeader" runat="server">
+                @Html.PropertyFor(x => x.CurrentPage.FixedISI, new { })
+
+            </div>
+        </div>
+        <div class="modal-dialog" role="document">
+            <div class="modal-content isi-modal-content">
+                <div class="modal-body isi-content">
+
+                    <div class="row">
+                        <div class="col-6">
+                            <div id="menulogopane" runat="server" >
+                            @Html.PropertyFor(x => x.CurrentPage.ContentArea_4, new { })
+                        </div>
+                        </div>
+                        <div class="col-6">
+                            <a href="javascript:void(0)" class="btn-close-isi" data-dismiss="modal">CLOSE</a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <div id="isipane" runat="server">
+                                @Html.PropertyFor(x => x.CurrentPage.ContentArea_5, new { })
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ISI Container Ends -->
+
+    @Html.RequiredClientResources("Footer")
+
+    @if (Model.CurrentPage.SiteJs != null && Model.CurrentPage.SiteJs.Length > 0)
+    {
+        for (var i = 0; i < Model.CurrentPage.SiteJs.Length; i++)
+        {
+
+            <script src="@Url.ContentUrl(Model.CurrentPage.SiteJs[i])" type="text/javascript"></script>
+        }
+    }
+    <script type="text/javascript">
+        $("button i").addClass("fa");
+        $(".hamburger-menu i").addClass("fas");
+        $(".hamburger-menu i").addClass("fa-bars");
+        $("a.btn-close-isi  i").addClass("fas ");
+        $("a.btn-close-isi  i").addClass("fa-times ");
+        $(".mobile-close i").addClass("fas");
+        $(".mobile-close i").addClass("fa-times");
+        $(document).ready(function () {
+            var loc = window.location.href;
+            if (loc.includes('/hcp/Page-Not-Found')) {
+                $("#contact-a-representative").css("display", "none");
+            }
+        });
+    </script>
+    <script src="~/Assets/Vaser-HCP/js/bootstrap.min.js"></script>
+    <script src="~/Assets/Vaser-HCP/js/jquery.mobile.custom.min.js"></script>
+    <script src="~/Assets/Vaser-HCP/js/menu.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,1562 @@
+.contact-representative {
+    background: #c3c3c3;
+    text-align: center
+}
+
+.bstrap30 .modal {
+    width: 75% !important;
+    margin: 0 auto 0 auto !important;
+    height: 81%;
+    top: 50% !important;
+    transform: translateY(-50%)
+}
+
+.contact-representative h3 {
+    font-family: Roboto,sans-serif;
+    font-weight: 300;
+    color: #696a6b;
+    font-size: 17px;
+    text-align: center;
+    padding: 70px 50px 0;
+    line-height: 30px
+}
+
+.frontEndTemplate .container {
+    width: auto !important
+}
+
+.contact-representative h3 strong {
+    font-weight: 500
+}
+
+.contact-representative a.btn.btn-secondary {
+    margin-bottom: 70px;
+    background: #005db9;
+    border-color: #fff;
+    text-transform: uppercase;
+    color: #6e9eaf;
+    border-radius: 30px;
+    border: 1px solid transparent
+}
+
+.contact-submit-row .field-container {
+    max-width: 130px;
+    float: left;
+    margin-left: 160px
+}
+
+.btn-secondary, .btn-secondary:focus, .btn-secondary:visited {
+    font-family: Roboto,sans-serif;
+    font-weight: 500;
+    background: #780032;
+    border-color: #fff;
+    border-radius: 3px;
+    color: #6e9eaf;
+    padding: 0 50px;
+    font-size: 12.8px;
+    box-shadow: none !important;
+    letter-spacing: 3px
+}
+
+.modal-dialog {
+    max-width: none;
+    margin: 1.75rem auto
+}
+
+.col-sm-12 {
+    width: 100%
+}
+
+#contact-a-representative .field-container p {
+    margin-bottom: 0;
+    padding-bottom: 20px
+}
+
+#contact-a-representative .field-container .label-top label.control-label {
+    padding-top: 0;
+    padding-bottom: 10px
+}
+
+.bstrap30 .form-horizontal div.checkbox.checkbox-inline {
+    padding-top: 0;
+    margin-left: 0
+}
+
+.offsetTop {
+    padding: 0 5px
+}
+
+    .offsetTop .text-danger {
+        padding-left: 0
+    }
+
+.checkbox-list div:nth-child(6), .checkbox-list div:nth-child(8) {
+    width: 70% !important
+}
+
+.modal-header {
+    display: block;
+    display: block;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 1rem;
+    border-bottom: 1px solid #e9ecef;
+    border-top-left-radius: .3rem;
+    border-top-right-radius: .3rem
+}
+
+.modal-title {
+    color: #6e9eaf;
+    font-size: 40px;
+    font-weight: 300;
+    text-align: left
+}
+
+.modal-header .close {
+    margin-top: 10px;
+    position: relative;
+    width: 80px;
+    text-indent: -99999px;
+    border: 2px solid #999;
+    margin-right: 0;
+    padding: 5px
+}
+
+    .modal-header .close::before {
+        content: 'CLOSE';
+        position: absolute;
+        left: 0;
+        text-indent: 0;
+        font-size: 16px;
+        text-align: center;
+        right: 0;
+        font-weight: 400;
+        color: #999;
+        padding: 0 0;
+        line-height: 34px;
+        top: 0
+    }
+
+.h4, h4 {
+    color: #6e9eaf;
+    font-size: 40px;
+    margin-bottom: 40px
+}
+
+.bstrap3-material p {
+    font-size: 17px;
+    margin-bottom: 0
+}
+
+.cl-blue {
+    color: #6e9eaf
+}
+
+.col-xs-12 .offsetTop .row {
+    display: block;
+    margin-right: 0;
+    margin-left: 0
+}
+
+.offsetTop {
+    margin-top: 30px
+}
+
+.bstrap30 input[type=radio] {
+    height: 30px;
+    width: 30px;
+    vertical-align: middle;
+    margin: 0 .4em .4em 0;
+    border: 2px solid #77a3b3;
+    background: -webkit-linear-gradient(#fcfcfc,#dadada);
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -webkit-transition: box-shadow .2s;
+    box-shadow: inset 1px 1px 0 #fff,0 1px 1px rgba(0,0,0,.1);
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+    font-family: Font Awesome\ 5 Free;
+    -webkit-border-radius: 0;
+    border-radius: 30px;
+    outline: 0 !important;
+    overflow: hidden
+}
+
+.bstrap30 input[type=checkbox] {
+    height: 30px;
+    width: 30px;
+    vertical-align: middle;
+    margin: 0 .4em .4em 0;
+    border: 2px solid #77a3b3;
+    background: -webkit-linear-gradient(#fcfcfc,#dadada);
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -webkit-transition: box-shadow .2s;
+    box-shadow: inset 1px 1px 0 #fff,0 1px 1px rgba(0,0,0,.1);
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+    font-family: Font Awesome\ 5 Free;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    outline: 0 !important;
+    overflow: hidden
+}
+
+.offsetTop .label-top {
+    float: left;
+    padding: 0 10px;
+    margin-top: 8px;
+    width: 170px
+}
+
+.form-group-bgGray .label-top {
+    background: #fff;
+    float: left;
+    padding: 0 0
+}
+
+.offsetTop p {
+    color: #6e9eaf;
+    font-weight: 700;
+    float: left
+}
+
+.form-horizontal .row-3 .field-container:nth-child(2) label {
+    color: #000;
+    font-weight: 400 !important
+}
+
+.bstrap3-material .form-control, .bstrap3-material [type=text].form-control {
+    display: block;
+    width: 100%;
+    height: 37px;
+    padding: 6px 16px;
+    font-size: 13px;
+    line-height: 1.846;
+    color: #666;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    -webkit-box-shadow: inset 0 0 0 rgba(0,0,0,.075);
+    box-shadow: inset 0 0 0 rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s
+}
+
+.bstrap3-material input.form-control.bgGray, .bstrap3-material select.form-control.bgGray {
+    width: 100%;
+    background: #eee;
+    border: 0;
+    margin-bottom: 5px;
+    font-size: 17px;
+    line-height: 36px;
+    padding-left: 10px;
+    height: 36px;
+    font-style: italic
+}
+
+.bstrap30 .label-align-top .checkbox, .bstrap30 .label-align-top .radio {
+    margin-left: 0;
+    display: inline;
+    text-align: left;
+    width: 15%;
+    float: left
+}
+
+.form-group-bgGray input, .form-group-bgGray option, .form-group-bgGray select, .form-group-bgGray select:focus {
+    width: 100%;
+    background: #eee;
+    border: 0;
+    margin-bottom: 25px;
+    font-size: 17px;
+    line-height: 36px;
+    padding: 0 10px;
+    height: 36px;
+    position: relative;
+    font-style: italic
+}
+
+@-moz-document url-prefix() {
+    .form-group-bgGray select, .form-group-bgGray select:focus {
+        padding-left: 6px
+    }
+}
+
+.form-group-bgGray select, .form-group-bgGray select:focus {
+    background: url(../img/other-33x50-dropdown-arrow.png) no-repeat right #eee;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-position-x: 99%;
+    background-size: contain;
+    outline: 0;
+    background-size: 17px
+}
+
+    .form-group-bgGray select:-moz-focusring {
+        color: #333;
+        text-shadow: 0 0 0 #000
+    }
+
+    .form-group-bgGray select::-ms-expand {
+        display: none
+    }
+
+.form-group-bgGray.arrowBg {
+    position: relative
+}
+
+.form-group-bgGray select::-ms-expand {
+    display: none
+}
+
+.form-group-bgGray select:focus::-ms-value {
+    background-color: transparent
+}
+
+.bstrap30 .label-align-top input[type=checkbox]:checked:before {
+    font-weight: 900;
+    color: rgba(0,0,0,.7);
+    content: '\f00c';
+    -webkit-margin-start: 0;
+    margin-left: 2px;
+    font-size: .9em;
+    padding-left: 3px;
+    line-height: 25px
+}
+
+.bstrap30 .label-align-top input[type=radio]:checked:before {
+    display: table;
+    content: '';
+    -webkit-margin-start: 0;
+    margin-left: 8px;
+    font-size: .9em;
+    padding-left: 3px;
+    width: 10px;
+    height: 10px;
+    background: #495057;
+    border-radius: 8px;
+    margin-top: 8px
+}
+
+.form-control:focus {
+    color: #495057;
+    background: #e6e6e6;
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0 rgba(0,123,255,.25)
+}
+
+.modal-header {
+    display: block;
+    display: block;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 1rem;
+    border-bottom: 0 solid #e9ecef;
+    border-top-left-radius: .3rem;
+    border-top-right-radius: .3rem
+}
+
+.bstrap30 .field-container {
+    margin-bottom: 0
+}
+
+.pad-0 {
+    padding: 0
+}
+
+.form-control {
+    float: left;
+    width: calc(100% - 170px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background: #e6e6e6;
+    background-clip: padding-box;
+    border: 0 solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out
+}
+
+.button-left .btn {
+    float: left;
+    border-radius: 0
+}
+
+.button-right .btn {
+    float: left
+}
+
+.button-left > div, .button-right > div {
+    flex: none;
+    max-width: none
+}
+
+.btn-cancel {
+    color: #6e9eaf;
+    font-size: 17px;
+    line-height: 25px;
+    text-decoration: underline;
+    font-style: italic
+}
+
+label {
+    display: inline-block;
+    margin-bottom: 0;
+    color: #6e9eaf
+}
+
+    label span {
+        display: inline-block;
+        margin-bottom: 0;
+        color: #000
+    }
+
+.err-placeholder {
+    float: left
+}
+
+.address-inputs input:focus {
+    background: #eee
+}
+
+#contact-a-representative .modal-content {
+    border-radius: 0;
+    width: 100%
+}
+
+#contact-a-representative .modal-header {
+    display: none !important
+}
+
+#contact-a-representative .modal-mobile-header, #findaHealthcarePopup .modal-mobile-header, #isiContainer .modal-mobile-header {
+    display: none
+}
+
+#contact-a-representative .mobile-heading {
+    display: none;
+    font-size: 18px;
+    color: #6e9eaf;
+    padding: 0 0 10px;
+    text-align: left
+}
+
+#contact-a-representative .mobile-heading-text {
+    display: none
+}
+
+#contact-a-representative p.help-text.cl-gray.footer {
+    font-size: 13px;
+    line-height: 17px;
+    text-align: left;
+    margin-bottom: 0;
+    padding: 25px 0 0
+}
+
+    #contact-a-representative p.help-text.cl-gray.footer a {
+        color: #6e9eaf;
+        text-decoration: underline
+    }
+
+#contact-a-representative .alert-info.submit-confirm {
+    background: 0 0;
+    width: 100%;
+    text-align: center;
+    border: none;
+    padding: 0 15px
+}
+
+#contact-a-representative h1 {
+    color: #90b5c5;
+    font-size: 40px;
+    font-weight: 300;
+    text-align: left;
+    margin-bottom: 30px;
+    width: calc(100% - 15%);
+    text-indent: -3px
+}
+
+#contact-a-representative .alert-info.submit-confirm p {
+    color: #000;
+    font-size: 18px;
+    text-align: left
+}
+
+#contact-a-representative .reload-window {
+    border: 2px solid #999;
+    color: #999;
+    padding: 6px 12px;
+    display: inline-block;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    cursor: pointer;
+    border-radius: 5px
+}
+
+.thankyou-close {
+    position: absolute;
+    top: 0;
+    right: -15px
+}
+
+.alert.alert-info.submit-confirm {
+    margin-left: -15px;
+}
+
+#contact-a-representative .bottom-btn-wrapper {
+    padding-top: 17px
+}
+
+.contact .field-container {
+    margin-left: 175px
+}
+
+#dnn16880YesNoRadioboxes {
+    padding-left: 0;
+    max-width: 100%
+}
+
+    #dnn16880Areyouaphysicianpatientorathirdparty .label-top, #dnn16880YesNoRadioboxes .label-top {
+        float: left;
+        margin: 15px 15px 0 0
+    }
+
+    #dnn16880Areyouaphysicianpatientorathirdparty .clearfix, #dnn16880YesNoRadioboxes .clearfix {
+        display: none
+    }
+
+.contact p {
+    margin-left: 175px
+}
+
+#contact-a-representative .reload-window.bottom {
+    float: left;
+    color: #fff;
+    font-family: Roboto,sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 39px;
+    padding: 0 20px;
+    background: #656668;
+    border-radius: .25rem;
+    margin-top: 17px;
+    border: 0;
+    text-transform: uppercase
+}
+
+#contact-a-representative .desktop-heading {
+    position: relative
+}
+
+    #contact-a-representative .desktop-heading h1 {
+        margin-bottom: 20px
+    }
+
+#contact-a-representative .reload-window.pos-right {
+    position: absolute;
+    top: 6px;
+    right: 0
+}
+
+#contact-a-representative .modal-body {
+    -webkit-overflow-scrolling: touch
+}
+
+#contact-a-representative .container > .modal-mobile-header {
+    z-index: 10000;
+    display: none
+}
+
+.cl-gray {
+    color: #999
+}
+
+.btn-submit {
+    color: #fff;
+    font-family: Roboto,sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 39px;
+    padding: 0 20px;
+    background: #6d9dae;
+    background: -moz-linear-gradient(top,#6d9dae 0,#5f8998 51%,#517480 100%);
+    background: -webkit-linear-gradient(top,#6d9dae 0,#5f8998 51%,#517480 100%);
+    background: -o-linear-gradient(top,#6d9dae 0,#5f8998 51%,#517480 100%);
+    background: -ms-linear-gradient(top,#6d9dae 0,#5f8998 51%,#517480 100%);
+    background: linear-gradient(to bottom,#6d9dae 0,#5f8998 51%,#517480 100%);
+    border: 0;
+    border-radius: .25rem
+}
+
+.c-form.form-horizontal {
+    padding-bottom: 55px
+}
+
+.avt-action-form .modal-body {
+    padding: 2rem
+}
+
+.row.text-left.pad-15 .label-top {
+    margin-right: 20px;
+    margin-top: 5px;
+    display: inline-block
+}
+
+.row-4 {
+    display: none
+}
+
+.row-3 .radio {
+    width: 85px !important
+}
+
+.row-2 .radio, .row-3 .radio {
+    padding-top: 5px !important
+}
+
+.row-3 .radio-btn .label-top {
+    margin-right: 20px
+}
+
+.row-2 .field-container, .row-3 .field-container {
+    display: flex;
+    align-items: center
+}
+
+    .row-3 .field-container .form-control {
+        max-width: 175px
+    }
+
+.row-5 .label-top {
+    margin-right: 20px;
+    display: block !important
+}
+
+.row-5 .checkbox {
+    width: 22% !important
+}
+
+.address-inputs span .field-container {
+    float: left;
+    max-width: 155px
+}
+
+.address-inputs .field-container {
+    float: right;
+    max-width: calc(100% - 155px);
+    padding-right: 0
+}
+
+    .address-inputs .field-container .label-top {
+        display: none
+    }
+
+.modal-dialog .pad-15 {
+    padding: 5px 15px
+}
+
+.address-inputs .field-container:nth-child(6) {
+    max-width: calc(50% - 79px)
+}
+
+.address-inputs .field-container:nth-child(5) {
+    max-width: calc(50% - 78px)
+}
+
+@media screen and (min-width:1400px) {
+    .contact-representative h3 {
+        font-size: 23.91px;
+        padding: 88px 40px 10px 40px;
+        line-height: 30px
+    }
+
+    .btn-secondary, .btn-secondary:focus, .btn-secondary:hover {
+        line-height: 56px;
+        font-size: 16.17px
+    }
+
+    .contact-representative a.btn.btn-secondary {
+        margin-bottom: 88px
+    }
+
+    .row-3 .field-container .form-control {
+        max-width: calc(100% - 270px)
+    }
+
+    .row-5 .checkbox {
+        width: 15% !important
+    }
+
+    .address-inputs .field-container:nth-child(5) {
+        max-width: calc(50% - 78px)
+    }
+
+    .address-inputs .field-container:nth-child(6) {
+        max-width: calc(50% - 79px)
+    }
+}
+
+@media only screen and (min-width:1001px) {
+    .contact-representative h3 {
+        font-size: 23.91px;
+        padding: 88px 270px 11px 18.7%;
+        line-height: 30px
+    }
+
+    .btn-secondary, .btn-secondary:focus, .btn-secondary:hover {
+        line-height: 50px;
+        font-size: 16.17px
+    }
+
+    .contact-representative a.btn.btn-secondary {
+        letter-spacing: 1px;
+        padding: 0 40px
+    }
+
+    .contactus {
+        padding-top: 20px
+    }
+
+        .contactus h1 {
+            line-height: 80px
+        }
+}
+
+@media only screen and (max-width:1024px) {
+    .contact-representative h3 {
+        padding: 50px 160px;
+        font-size: 18px
+    }
+
+    .contact-representative a.btn.btn-secondary {
+        margin-bottom: 50px;
+        padding: 0 50px;
+        line-height: 50px;
+        font-size: 16.17px;
+        font-weight: 500
+    }
+
+    .address-inputs .field-container:nth-child(5) {
+        max-width: calc(50% - 79px)
+    }
+
+    .address-inputs .field-container:nth-child(6) {
+        max-width: calc(50% - 78px)
+    }
+
+    .row-5 .checkbox {
+        width: 25% !important
+    }
+
+    .bstrap30 .label-align-top .checkbox, .bstrap30 .label-align-top .radio {
+        width: 20%
+    }
+}
+
+@media screen and (min-width:1001px) and (max-width:1199px) {
+    .contact-representative h3 {
+        padding: 50px 0 20px
+    }
+}
+
+@media only screen and (max-width:1000px) {
+    #contact-a-representative .modal-mobile-header .mobile-close a i, #findaHealthcarePopup .modal-mobile-header .mobile-close a i, #isiContainer .modal-mobile-header .mobile-close a i {
+        font-size: 32px;
+        margin: 0;
+        line-height: 45px
+    }
+
+    #contact-a-representative .mobile-heading {
+        font-size: 40px
+    }
+
+    .contact-representative h3 {
+        padding: 50px 0 30px;
+        font-size: 32px;
+        line-height: inherit
+    }
+
+    .btn-secondary, .btn-secondary:focus, .btn-secondary:visited {
+        line-height: 96px;
+        padding: 0 50px;
+        font-size: 30px;
+        width: 100%
+    }
+
+    p.help-text.cl-gray.footer {
+        line-height: 20px
+    }
+
+    .bstrap30 .modal {
+        width: 100% !important;
+        margin: 0 auto !important;
+        top: 0 !important;
+        height: auto;
+        transform: none
+    }
+
+    #isiContainer .modal-dialog {
+        width: 100%;
+        padding: 0
+    }
+
+    .mobile-close .btn-close-isi {
+        display: block !important
+    }
+
+    .btn-close-isi {
+        display: none !important
+    }
+
+    #contact-a-representative .modal-dialog, #findaHealthcarePopup .modal-dialog, #isiContainer .modal-dialog {
+        margin: 0
+    }
+
+        #contact-a-representative .modal-dialog .modal-content, #findaHealthcarePopup .modal-dialog .modal-content, #isiContainer .modal-dialog .modal-content {
+            width: 100vw;
+            border-radius: 0;
+            border: none;
+            overflow: auto;
+            height: 100vh
+        }
+
+    #contact-a-representative .modal-header {
+        display: none
+    }
+
+    #contact-a-representative .mobile-heading {
+        display: block
+    }
+
+    #contact-a-representative .mobile-heading-text {
+        display: block
+    }
+
+    #contact-a-representative .mobile-heading + div {
+        margin-bottom: 15px
+    }
+
+    #contact-a-representative .checkbox-list .label-top {
+        margin-bottom: 10px;
+        top: 10px
+    }
+
+    #contact-a-representative .modal-body, #findaHealthcarePopup .modal-body, #isiContainer .modal-body {
+        max-height: 100vh !important;
+        margin-top: 90px
+    }
+
+    #contact-a-representative .modal-mobile-header, #findaHealthcarePopup .modal-mobile-header, #isiContainer .modal-mobile-header {
+        display: block;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        background: #6e9eaf;
+        line-height: 45px;
+        z-index: 1;
+        width: 100vw;
+        height: 45px
+    }
+
+        #contact-a-representative .modal-mobile-header .logo, #contact-a-representative .modal-mobile-header .mobile-close, #findaHealthcarePopup .modal-mobile-header .logo, #findaHealthcarePopup .modal-mobile-header .mobile-close, #isiContainer .modal-mobile-header .logo, #isiContainer .modal-mobile-header .mobile-close {
+            padding-left: 15px;
+            padding-right: 15px
+        }
+
+        #contact-a-representative .modal-mobile-header .logo, #findaHealthcarePopup .modal-mobile-header .logo, #isiContainer .modal-mobile-header .logo {
+            float: left
+        }
+
+        #contact-a-representative .modal-mobile-header .mobile-close, #findaHealthcarePopup .modal-mobile-header .mobile-close, #isiContainer .modal-mobile-header .mobile-close {
+            float: right;
+            color: #fff
+        }
+
+            #contact-a-representative .modal-mobile-header .mobile-close a, #findaHealthcarePopup .modal-mobile-header .mobile-close a, #isiContainer .modal-mobile-header .mobile-close a {
+                font-size: 21px;
+                line-height: 36px;
+                padding: 0;
+                border: none
+            }
+
+                #contact-a-representative .modal-mobile-header .mobile-close a i, #findaHealthcarePopup .modal-mobile-header .mobile-close a i, #isiContainer .modal-mobile-header .mobile-close a i {
+                    color: #fff
+                }
+
+    #contact-a-representative .bstrap30 .label-align-top .checkbox, #contact-a-representative .bstrap30 .label-align-top .radio {
+        width: 100%
+    }
+
+    #contact-a-representative .button-left .btn, #contact-a-representative .button-right .btn {
+        float: none
+    }
+
+    .desktop-heading {
+        display: none
+    }
+
+    #contact-a-representative .alert-info.submit-confirm {
+        padding-top: 15px
+    }
+}
+
+@media screen and (min-width:769px) and (max-width:990px) {
+    #contact-a-representative .alert-info.submit-confirm {
+        padding-top: 15px
+    }
+}
+
+@media screen and (max-width:992px) {
+    #contact-a-representative .modal-content {
+        width: 100%
+    }
+
+    .avt-action-form .modal-body {
+        padding: 1.5rem
+    }
+
+    .row.text-left.pad-15 .label-top {
+        margin-right: 20px;
+        margin-top: 5px;
+        display: block
+    }
+
+    .row-3 .radio {
+        width: 100% !important
+    }
+
+    .row-2 .radio, .row-3 .radio {
+        padding-top: 5px !important
+    }
+
+    .row-3 .radio-btn .label-top {
+        margin-right: 20px
+    }
+
+    .row-2 .field-container, .row-3 .field-container {
+        display: block;
+        align-items: center
+    }
+
+        .row-3 .field-container .form-control {
+            max-width: 100%
+        }
+
+    .row-5 .label-top {
+        margin-right: 20px;
+        display: block !important
+    }
+
+    .row-5 .checkbox {
+        width: 100% !important
+    }
+
+    .row-12 .col-sm-6, .row-5 .col-sm-6, .row-6 .col-sm-6, .row-7 .col-sm-6 {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%
+    }
+
+        .row-11 .col-lg-12 .label-top, .row-5 .col-sm-6 .label-top, .row-6 .col-sm-6 .label-top, .row-7 .col-sm-12 .label-top, .row-8 .col-sm-12 .label-top {
+            margin-top: 0 !important;
+            float: none;
+            padding: 0 0;
+            width: 100%
+        }
+
+        .row-6 .col-sm-6:nth-child(2) {
+            margin-top: 30px
+        }
+
+    .row-8 .col-lg-12 .field-container {
+        padding: 0 0
+    }
+
+    .form-control {
+        float: none;
+        width: calc(100% - 0px)
+    }
+
+    .address-inputs span .field-container {
+        float: none;
+        max-width: 100%
+    }
+
+    .address-inputs .field-container {
+        float: none;
+        max-width: calc(100% - 0px)
+    }
+
+        .address-inputs .field-container:nth-child(5) {
+            max-width: 100%
+        }
+
+        .address-inputs .field-container:nth-child(6) {
+            max-width: 100%
+        }
+
+    .contact .field-container, .contact p {
+        margin-left: 5px
+    }
+
+    .contact-submit-row .field-container {
+        margin-left: -8px
+    }
+
+    .contact-representative {
+        background: #c3c3c3;
+        text-align: center
+    }
+
+    .offsetTop .label-top {
+        padding: 0 0
+    }
+
+    .healthcare-pop {
+        text-align: center
+    }
+}
+
+@media only screen and (min-width:320px) and (max-width:799px) {
+    .contact-representative h3 {
+        font-size: 35px
+    }
+}
+
+@media only screen and (min-width:320px) and (max-width:767px) {
+    .contact-representative h3 {
+        font-size: 30px;
+        line-height: inherit
+    }
+
+    .btn-secondary {
+        line-height: 80px;
+        font-size: 21px
+    }
+
+    .brands-carousel .carousel-control-next-icon, .brands-carousel .carousel-control-prev-icon {
+        width: 25px;
+        height: 25px
+    }
+}
+
+@media only screen and (min-width:320px) and (max-width:599px) {
+    .contact-representative {
+        background: #c3c3c3;
+        text-align: center
+    }
+
+        .contact-representative h3 {
+            padding: 45px 0;
+            font-size: 28px
+        }
+
+    .btn-secondary {
+        line-height: 60px;
+        font-size: 18px
+    }
+
+    .contact-representative a.btn.btn-secondary {
+        margin-bottom: 40px;
+        font-size: 11px;
+        letter-spacing: 0
+    }
+
+    #contact-a-representative .modal-mobile-header, #findaHealthcarePopup .modal-mobile-header, #isiContainer .modal-mobile-header {
+        display: block;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        background: #6e9eaf;
+        line-height: 45px !important;
+        z-index: 1;
+        width: 100vw;
+        height: 45px !important
+    }
+
+        #contact-a-representative .modal-mobile-header .mobile-close a {
+            height: 45px !important
+        }
+
+        #contact-a-representative .modal-mobile-header .logo {
+            line-height: 45px
+        }
+
+        #contact-a-representative .modal-mobile-header .mobile-close a i, #findaHealthcarePopup .modal-mobile-header .mobile-close a i, #isiContainer .modal-mobile-header .mobile-close a i {
+            font-size: 21px !important;
+            margin: 0 !important
+        }
+
+    #contact-a-representative .modal-body, #findaHealthcarePopup .modal-body, #isiContainer .modal-body {
+        margin-top: 50px !important
+    }
+
+    #contact-a-representative .mobile-heading {
+        font-size: 26px !important
+    }
+
+    #contact-a-representative .modal-body, #isiContainer .modal-body {
+        max-height: 100vh !important;
+        padding-top: 18px !important
+    }
+}
+
+@media only screen and (min-width:320px) and (max-width:479px) {
+    a.btn-close-contact-representative, a.btn-close-contact-representative-success {
+        font-size: 13px;
+        padding: 7px;
+        line-height: 13px
+    }
+
+    .contact-representative h3 {
+        padding: 30px 0 10px;
+        font-size: 15px
+    }
+
+    .btn-secondary, .btn-secondary:focus, .btn-secondary:visited {
+        line-height: 42px;
+        font-size: 11px;
+        padding: 0 8px
+    }
+}
+
+@media screen and (min-width:1024px) {
+    #contact-a-representative .container > .modal-mobile-header {
+        display: none !important
+    }
+}
+
+@media screen and (min-width:789px) and (max-width:1024px) {
+    #contact-a-representative .modal-dialog {
+        width: 100% !important
+    }
+
+    .modal-mobile-header {
+        padding: 0 15px
+    }
+
+    #contact-a-representative .modal-mobile-header .mobile-close a, #findaHealthcarePopup .modal-mobile-header .mobile-close a, #isiContainer .modal-mobile-header .mobile-close a {
+        padding: 0
+    }
+}
+
+@media screen and (max-width:768px) {
+    .checkbox-list div:nth-child(6), .checkbox-list div:nth-child(8) {
+        width: 100% !important
+    }
+
+    #isiContainer .modal-dialog {
+        width: 100%
+    }
+
+    #contact-a-representative .modal-dialog, #isiContainer .modal-dialog {
+        margin: 0;
+        width: 100% !important
+    }
+
+        #contact-a-representative .modal-dialog .modal-content, #isiContainer .modal-dialog .modal-content {
+            width: 100vw;
+            border-radius: 0;
+            border: none;
+            overflow: auto;
+            height: 100vh
+        }
+
+    #contact-a-representative .modal-header {
+        display: none
+    }
+
+    #contact-a-representative .mobile-heading {
+        display: block
+    }
+
+    #contact-a-representative .mobile-heading-text {
+        display: block
+    }
+
+    #contact-a-representative .mobile-heading + div {
+        margin-bottom: 15px
+    }
+
+    #contact-a-representative .checkbox-list .label-top {
+        margin-bottom: 10px
+    }
+
+    #contact-a-representative .modal-body, #isiContainer .modal-body {
+        max-height: 100vh !important;
+        padding-top: 15px
+    }
+
+    #contact-a-representative .modal-mobile-header, #findaHealthcarePopup .modal-mobile-header, #isiContainer .modal-mobile-header {
+        display: block;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        background: #6e9eaf;
+        line-height: 45px;
+        z-index: 1;
+        width: 100vw;
+        height: 45px;
+        padding: 3px 15px
+    }
+
+        #contact-a-representative .modal-mobile-header .logo, #contact-a-representative .modal-mobile-header .mobile-close, #findaHealthcarePopup .modal-mobile-header .logo, #findaHealthcarePopup .modal-mobile-header .mobile-close, #isiContainer .modal-mobile-header .logo, #isiContainer .modal-mobile-header .mobile-close {
+            padding-left: 15px;
+            padding-right: 15px
+        }
+
+        #contact-a-representative .modal-mobile-header .logo, #findaHealthcarePopup .modal-mobile-header .logo, #isiContainer .modal-mobile-header .logo {
+            float: left;
+            padding-left: 0
+        }
+
+        #contact-a-representative .modal-mobile-header .mobile-close, #findaHealthcarePopup .modal-mobile-header .mobile-close, #isiContainer .modal-mobile-header .mobile-close {
+            float: right;
+            color: #fff
+        }
+
+            #contact-a-representative .modal-mobile-header .mobile-close a, #findaHealthcarePopup .modal-mobile-header .mobile-close a, #isiContainer .modal-mobile-header .mobile-close a {
+                font-size: 50px;
+                padding: 0 0
+            }
+
+                #contact-a-representative .modal-mobile-header .mobile-close a i, #findaHealthcarePopup .modal-mobile-header .mobile-close a i, #isiContainer .modal-mobile-header .mobile-close a i {
+                    color: #fff
+                }
+
+    #contact-a-representative .bstrap30 .label-align-top .checkbox, #contact-a-representative .bstrap30 .label-align-top .radio {
+        width: 100%
+    }
+
+        #contact-a-representative .bstrap30 .label-align-top .checkbox input[type=checkbox], #contact-a-representative .bstrap30 .label-align-top .radio input[type=radio] {
+            border-width: 1px
+        }
+
+    .offsetTop {
+        border-width: 1px
+    }
+
+    #contact-a-representative .button-left .btn, #contact-a-representative .button-right .btn {
+        border-radius: .25rem
+    }
+
+    #contact-a-representative .button-left > div, .button-right > div {
+        flex: none;
+        max-width: none;
+        text-align: center !important
+    }
+
+    .desktop-heading {
+        display: none
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .bstrap30 .modal {
+        width: 100% !important;
+        margin: 0 auto !important;
+        top: 0;
+        height: auto
+    }
+
+    #isiContainer .modal-dialog {
+        width: 100%
+    }
+
+    #contact-a-representative .modal-dialog, #isiContainer .modal-dialog {
+        margin: 0
+    }
+
+    #findaHealthcarePopup ul.brands-popup-ul li img {
+        max-height: 70px
+    }
+
+        #findaHealthcarePopup ul.brands-popup-ul li img.thermage-logo {
+            max-height: 80px
+        }
+
+    #contact-a-representative .modal-dialog .modal-content, #isiContainer .modal-dialog .modal-content {
+        width: 100vw;
+        border-radius: 0;
+        border: none;
+        overflow: auto;
+        height: 100vh
+    }
+
+    #contact-a-representative .modal-header {
+        display: none
+    }
+
+    #contact-a-representative .mobile-heading {
+        display: block
+    }
+
+    #contact-a-representative .mobile-heading-text {
+        display: block
+    }
+
+    #contact-a-representative .mobile-heading + div {
+        margin-bottom: 15px
+    }
+
+    #contact-a-representative .checkbox-list .label-top {
+        margin-bottom: 10px;
+        top: 10px
+    }
+
+    #contact-a-representative .modal-body, #isiContainer .modal-body {
+        max-height: 100vh !important;
+        padding-top: 15px
+    }
+
+    #contact-a-representative .modal-mobile-header, #findaHealthcarePopup .modal-mobile-header, #isiContainer .modal-mobile-header {
+        display: block;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        background: #6e9eaf;
+        line-height: 45px;
+        z-index: 1;
+        width: 100vw;
+        height: 45px;
+        padding: 0 25px 0 15px
+    }
+
+        #contact-a-representative .modal-mobile-header .logo, #contact-a-representative .modal-mobile-header .mobile-close, #findaHealthcarePopup .modal-mobile-header .logo, #findaHealthcarePopup .modal-mobile-header .mobile-close, #isiContainer .modal-mobile-header .logo, #isiContainer .modal-mobile-header .mobile-close {
+            padding-left: 15px;
+            padding-right: 15px
+        }
+
+        #contact-a-representative .modal-mobile-header .logo, #findaHealthcarePopup .modal-mobile-header .logo, #isiContainer .modal-mobile-header .logo {
+            float: left;
+            padding: 0
+        }
+
+        #contact-a-representative .modal-mobile-header .mobile-close, #findaHealthcarePopup .modal-mobile-header .mobile-close, #isiContainer .modal-mobile-header .mobile-close {
+            float: right;
+            color: #fff;
+            padding: 0
+        }
+
+            #contact-a-representative .modal-mobile-header .mobile-close a, #findaHealthcarePopup .modal-mobile-header .mobile-close a, #isiContainer .modal-mobile-header .mobile-close a {
+                font-size: 21px;
+                line-height: 36px;
+                padding: 0;
+                border: none
+            }
+
+                #contact-a-representative .modal-mobile-header .mobile-close a i, #findaHealthcarePopup .modal-mobile-header .mobile-close a i, #isiContainer .modal-mobile-header .mobile-close a i {
+                    color: #fff
+                }
+
+    #contact-a-representative .bstrap30 .label-align-top .checkbox, #contact-a-representative .bstrap30 .label-align-top .radio {
+        width: 100%
+    }
+
+    #contact-a-representative .button-left .btn, #contact-a-representative .button-right .btn {
+        float: none
+    }
+}
+
+@media screen and (max-width:450px) {
+    #contact-a-representative .modal-mobile-header, #findaHealthcarePopup .modal-mobile-header, #isiContainer .modal-mobile-header {
+        display: block;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        background: #6e9eaf;
+        line-height: 45px;
+        z-index: 1;
+        width: 100vw;
+        height: 45px;
+        padding: 0 15px
+    }
+
+        #contact-a-representative .modal-mobile-header .mobile-close, #findaHealthcarePopup .modal-mobile-header .mobile-close, #isiContainer .modal-mobile-header .mobile-close {
+            padding: 0
+        }
+
+    #contact-a-representative p.help-text.cl-gray.footer {
+        padding-left: 0 !important;
+        padding-right: 5px !important
+    }
+
+    #findaHealthcarePopup ul.brands-popup-ul li img {
+        max-height: 40px
+    }
+
+        #findaHealthcarePopup ul.brands-popup-ul li img.thermage-logo {
+            max-height: 40px
+        }
+
+    .email-form .form-horizontal {
+        display: flex
+    }
+}
+
+@media screen and (max-width:320px) {
+    #contact-a-representative p.help-text.cl-gray.footer {
+        padding-left: 10px !important;
+        padding-right: 10px !important
+    }
+}
+
+#contact-a-representative .err-placeholder span.text-danger {
+    display: none !important
+}
+
+#contact-a-representative .err-placeholder span:first-child {
+    display: block !important
+}
+
+.bstrap30 .modal > .modal-dialog {
+    width: 100% !important;
+    margin: 0
+}
+
+@media only screen and (max-width:992px) {
+    .modal-content {
+        width: 92vw
+    }
+}
+
+.isi-popup-bottom-text strong {
+    padding-bottom: 20px
+}
+
+@media only screen and (min-device-width:320px) and (max-device-width:568px) and (-webkit-min-device-pixel-ratio:2) and (orientation:portrait) {
+    #contact-a-representative .mobile-heading {
+        font-size: 20px !important
+    }
+
+    .contact .field-container {
+        padding-right: 0
+    }
+}
+
+.contact-representative h3 p {
+    padding: 0;
+    margin: 0
+}
+
+@media screen and (min-width:1000px) {
+    .modal-mobile-header {
+        display: none !important
+    }
+}
+
+.contact-representative {
+    background: #c3c3c3;
+    text-align: center
+}
+
+label.control-label.af-slide {
+    font-weight: bolder;
+}
+
+.btn-submit {
+    margin-top: 17px;
+}
+
+@media only screen and (min-width:1000px) and (max-width:1920px) {
+    .ng-address {
+        margin: 0 0 -38px -161px !important;
+    }
+}
+
+/*Added For Form*/
+
+label#Whichbrandsareyouinterestedin-error {
+    position: absolute;
+    bottom: -28px;
+    left: 10px;
+}
+
+.offsetTop.address-inputs .btnc-left {
+    float: left;
+    max-width: 155px;
+}
+
+.bstrap30 .contact-submit-row .field-container input#btnsubmit {
+    text-transform: uppercase;
+}
+
+@media (max-width: 767px) {
+    #div_billno.show {
+        display: inline-block !important;
+    }
+}
+
+
+/*Added for form popup*/
+.thankyou-form {
+    overflow: hidden !important;
+    width: 100% !important;
+    max-width: 75%;
+    margin: 0 auto;
+    top: 20%;
+}
+
+.thankyou-form .modal-content {
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.thankyou-form .modal-body {
+    padding: 2rem;
+}
+
+.thankyou-form .modal-body .row {
+    min-width: 0;
+}
+
+.thankyou-form .thankyou-close {
+    right: 0;
+}
+
+.thankyou-form .alert.alert-info.submit-confirm {
+    padding: 0 30px !important;
+}
+
+.offsetTop.address-inputs .btnc-left {
+    float: right;
+    max-width: calc(100% - 155px);
+    padding-right: 0px;
+}
+
+
+@media (max-width: 991px) {
+    .thankyou-form {
+        overflow: hidden !important;
+        width: 100% !important;
+        max-width: 100% !important;
+        top: 0 !important;
+        height: auto !important;
+    }
+}

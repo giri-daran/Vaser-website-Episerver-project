@@ -1,0 +1,22 @@
+@using EPiServer.Core
+@using EPiServer.Web.Mvc.Html
+@using EPiServer.Editor
+@using EPiServer.Core
+@using EPiServer.Web
+@model PageViewModel<EpiserverBH.Models.Pages.HCP>
+
+
+<footer class="container-fluid">
+    <div class="row footer">
+        <div class="col-12">
+            <div class="container">
+                <div id="footerpane">
+                    @Html.PropertyFor(x => x.CurrentPage.Footer, new { })
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<div class="modal fade in contactPopup" id="contactPopup" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    @Html.PropertyFor(x => x.CurrentPage.ContentArea_6, new { })
+</div>

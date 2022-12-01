@@ -1,0 +1,68 @@
+@using EpiserverBH
+@using EPiServer.Web.Mvc.Html
+@using System.Web.Optimization
+@using EpiserverBH.Business
+@model PageViewModel<HCP>
+
+
+@{
+    string layouturl = null;
+    if (Model.Layout.SiteTemplate != null)
+    {
+        layouturl = "~/Views/" + Model.Layout.SiteTemplate + "/Layouts/_Root.cshtml";
+
+    }
+}
+@{ Layout = layouturl;}
+
+
+<div>
+    @Html.PropertyFor(x => x.CurrentPage.ContentArea_2, new { })
+    <div class="container-fluid" id="contact-a-representative">
+        <div class="row contact-representative">
+            <div class="col-12 p-0">
+                <div class="container">
+                    @Html.PropertyFor(x => x.CurrentPage.ContentArea_6, new { })
+                    <div id="contactrepPane">
+                        @Html.PropertyFor(x => x.CurrentPage.ContentArea_7, new { })
+                        <div class="Vaser-Contactrep-from">
+                            <div class=" Container_noTitle">
+                                <div id="ContentPane">
+                                    <div class=" ModuleContent ModActionFormC">
+                                        <div class="pnlMessage sunny bstrap30 avt-action-form" >
+                                            <div id="contactRepresentativeForm">
+                                                <div class="form-root bstrap30 ng-scope" style="padding: 0px;" id="root" >
+                                                    <div role="dialog" class="af-modal-module modal fade avt-action-form" id="contactPopup">
+                                                        <div class="modal-dialog" style="width: 60%;">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                                                    <h4 class="modal-title"></h4>
+                                                                </div>
+                                                                <div class="modal-body">
+                                                                    <div class="row">
+                                                                        <div class="c-form  form-horizontal normal label-align-top col-sm-12 ">
+                                                                            @Html.PropertyFor(x => x.CurrentPage.Banner, new { })
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+

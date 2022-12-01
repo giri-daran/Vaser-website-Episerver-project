@@ -1,0 +1,191 @@
+.Vaser-Contactrep-from .Form__Status .hide{
+    display:none;
+}
+.Vaser-Contactrep-from .EPiServerForms .Form__Element{
+    margin-bottom:0rem;
+}
+
+.Vaser-Contactrep-from #ContentPane .form-root .avt-action-form.show {
+    padding: 0!important;
+}
+
+.Vaser-Contactrep-from .EPiServerForms .Form__Element .Form__Element__Caption{
+    min-width:unset;
+    vertical-align:unset;
+}
+
+.Vaser-Contactrep-from .EPiServerForms .Form__Status .Form__Success__Message {
+    background-color: white;
+}
+
+.Vaser-Contactrep-from .EPiServerForms .Form__Status .Form__Status__Message {
+    margin: 0 0;
+    padding: 0 1rem;
+}
+
+#Whichbrandsareyouinterestedin span.Form__Element__ValidationError {
+    position: absolute;
+    bottom: -28px;
+    left: 10px;
+}
+
+.vsr-ru-thrd-prty div.Form__Element {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    
+}
+
+.field-container.af-slide.form-group-bgGray {
+    margin-bottom: 25px;
+}
+.form-group-bgGray input {
+    margin-bottom: 0px;
+}
+
+@media screen and (max-width: 992px){
+    .vsr-ru-thrd-prty div.Form__Element {
+        display: block;
+        align-items: center;
+    }
+}
+
+.vsr-qstwo-chice div.Form__Element{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    
+}
+
+@media screen and (max-width: 992px) {
+    .vsr-qstwo-chice div.Form__Element {
+        display: block;
+        align-items: center;
+        
+    }
+}
+
+.vsr-qes-3 div.Form__Element {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+@media screen and (max-width: 992px) {
+    .vsr-qes-3 div.Form__Element {
+        display: block;
+    }
+}
+
+.ng-bind label {
+    display: inline-block;
+    margin-bottom: 0;
+    color: #000;
+}
+
+.bstrap30 .contact-submit-row .field-container button#btnsubmit {
+    text-transform: uppercase;
+}
+
+.btn-submit {
+    margin-top: 17px!important;
+}
+
+/*-------------------------------*/
+
+.contact-representative .drop-down .selected a {
+    width: 100%;
+    position: relative;
+    font-style: italic;
+}
+
+.contact-representative .drop-down {
+    padding: 2px 0;
+}
+
+    .contact-representative .drop-down .selected a span {
+        cursor: pointer;
+        display: block;
+        padding: 5px;
+        background: #eeeeee;
+        border: 0px;
+        margin-bottom: 25px;
+        font-size: 17px;
+        line-height: 36px;
+        padding: 0 10px;
+        height: 36px;
+        color: #495057;
+    }
+
+    .contact-representative .drop-down .option {
+        position: relative;
+    }
+
+    .contact-representative .drop-down .options ul {
+        display: none;
+        list-style: none;
+        padding: 2px 0px;
+        position: absolute;
+        left: -4px;
+        top: -16px;
+        width: auto;
+        width: 100%;
+        border: none;
+        background: #ABC;
+        color: #fff;
+        border-radius: 2px;
+        width: 96%;
+    }
+
+    .contact-representative .drop-down .selected span.value, .drop-down .options span.value {
+        display: none;
+    }
+
+    .contact-representative .drop-down .options ul li a {
+        padding: 0 5px;
+        display: block;
+        text-decoration: none;
+        color: #fff;
+    }
+
+        .contact-representative .drop-down .options ul li a:hover {
+            background: #3179ac;
+            color: #fff;
+            transition: 0.2s ease;
+        }
+
+#div_billno {
+    display: none;
+}
+
+    #div_billno.show {
+        display: flex;
+    }
+
+.Vaser-Contactrep-from .EPiServerForms span.Form__Element__ValidationError {
+    color: #dc3545 !important;
+    margin: 5px;
+    
+}
+
+select.form-control {
+    margin-bottom: 0px !important;
+}
+
+#Country_value {
+    /*appearance: none;*/
+    position: relative;
+    width: 100%;
+}
+
+    #Country_value option {
+        cursor: pointer;
+    }
+
+.thnk-You-pg .modal-body {
+    padding: 0rem;
+}
+
+.Vaser-Contactrep-from .thnk-You-pg .alert-info.submit-confirm p {
+    margin-bottom: 0rem;
+}
