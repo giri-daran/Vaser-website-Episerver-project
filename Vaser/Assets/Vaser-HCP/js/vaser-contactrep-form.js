@@ -26,6 +26,7 @@ $('.vsrFWrp-Frt-Sec, .vsrFWrp-prcnme-Scnd-Sec, .VSR_Adrs-Maincls, .vsr-Main-phn-
 $('.field-container.vsr-Submt-BTN').wrap('<div class="row contact-submit-row"><div class= "col-12 button-right SbtMain-btn"/></div>');
 $('.SbtMain-btn').append('<a class="reload-window bottom" data-dismiss="modal">Cancel</a>');
 
+/*-----------------------------------*/
 
 $('.vsr-ru-thrd-prty').attr('id', 'Areyouaphysicianpatientorathirdparty');
 $('.vsr-ru-thrd-prty .radio input').attr('name', 'Areyouaphysicianpatientorathirdparty');
@@ -126,6 +127,7 @@ $(".drop-down .options ul li a").click(function () {
 
 
 //HIDE OPTIONS IF CLICKED ANYWHERE ELSE ON PAGE
+
 $(document).bind('click', function (e) {
     var $clicked = $(e.target);
     if (!$clicked.parents().hasClass("drop-down"))
